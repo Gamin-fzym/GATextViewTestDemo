@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface BLogInputTextCell : UITableViewCell <UITextViewDelegate>
 
 @property (weak, nonatomic) IBOutlet JDPlaceHolderTextView *inputTextView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *textWConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *textHConstraint;
 @property (weak, nonatomic) IBOutlet UILabel *alertLab;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *alertHConstraint;

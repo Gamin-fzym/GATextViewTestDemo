@@ -43,6 +43,8 @@
 
 - (void)releaseAction {
     _alertHConstraint.constant = 0.0;
+    float w = [UIScreen mainScreen].bounds.size.width - 15*2;
+    _textWConstraint.constant = w;
     _inputTextView.userInteractionEnabled = NO;
 }
 
@@ -86,12 +88,7 @@
 }
 
 - (void)updateTextViewHeight {
-    UITextView *theText = [[UITextView alloc] initWithFrame:CGRectMake(15, 0, [UIScreen mainScreen].bounds.size.width-30, 20)];
-    theText.alpha = 0;
-    theText.font = [UIFont systemFontOfSize:15];
-    [self.contentView addSubview:theText];
-    theText.text = _inputTextView.text;
-    CGSize size = theText.contentSize;
+    CGSize size = _inputTextView.contentSize;
     
     float h = 0;
     if (size.height > 54) {
@@ -110,6 +107,10 @@
         [tableView beginUpdates];
         [tableView endUpdates];
     }
+}
+
+- (void)sss {
+    
 }
 
 - (UITableView *)tableView {
