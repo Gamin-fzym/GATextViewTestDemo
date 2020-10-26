@@ -93,7 +93,7 @@
                 <outlet property="textHConstraint" destination="kEI-Ai-CFw" id="nuc-Su-1kq"/>
                 <outlet property="textWConstraint" destination="2Te-rC-1Gj" id="cnK-IB-DSC"/>
             </connections>
-            <point key="canvasLocation" x="-157" y="-20"/>
+            <point key="canvasLocation" x="-754" y="-190"/>
         </tableViewCell>
     </objects>
 </document>

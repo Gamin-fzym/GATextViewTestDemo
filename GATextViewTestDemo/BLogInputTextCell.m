@@ -53,7 +53,9 @@
     if (object) {
         _dataModel = object;
         _inputTextView.placeholder = _dataModel.placeText;
-        _inputTextView.text = _dataModel.inputText;
+        //_inputTextView.text = _dataModel.inputText;
+        // 处理换行展示
+        _inputTextView.text = [_dataModel.inputText?:@"" stringByReplacingOccurrencesOfString:@"\\n" withString:@"\n"];
         [self textViewDidChange:_inputTextView];
         _alertLab.text = [NSString stringWithFormat:@"%lu/%ld字",(unsigned long)_inputTextView.text.length,(long)_dataModel.limitNum];
         
@@ -107,10 +109,6 @@
         [tableView beginUpdates];
         [tableView endUpdates];
     }
-}
-
-- (void)sss {
-    
 }
 
 - (UITableView *)tableView {
