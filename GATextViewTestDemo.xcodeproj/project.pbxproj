@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F0E92225469EEF00F2ABA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0E92125469EEF00F2ABA5 /* AppDelegate.m */; };
+		08F0E92825469EEF00F2ABA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0E92725469EEF00F2ABA5 /* ViewController.m */; };
+		08F0E92B25469EEF00F2ABA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F0E92925469EEF00F2ABA5 /* Main.storyboard */; };
+		08F0E92D25469EF200F2ABA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F0E92C25469EF200F2ABA5 /* Assets.xcassets */; };
+		08F0E93025469EF200F2ABA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F0E92E25469EF200F2ABA5 /* LaunchScreen.storyboard */; };
+		08F0E93325469EF200F2ABA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0E93225469EF200F2ABA5 /* main.m */; };
+		08F0E93C2546A0A800F2ABA5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0E93A2546A0A800F2ABA5 /* HomeViewController.m */; };
+		08F0E93D2546A0A800F2ABA5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F0E93B2546A0A800F2ABA5 /* HomeViewController.xib */; };
+		08F0E9432546A21400F2ABA5 /* BLogInputTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0E93F2546A21400F2ABA5 /* BLogInputTextCell.m */; };
+		08F0E9442546A21400F2ABA5 /* BLogInputTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F0E9412546A21400F2ABA5 /* BLogInputTextCell.xib */; };
+		08F0E9452546A21400F2ABA5 /* JDPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0E9422546A21400F2ABA5 /* JDPlaceHolderTextView.m */; };
+		08F0E9482546A40300F2ABA5 /* BLogInputTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0E9462546A40300F2ABA5 /* BLogInputTextModel.m */; };
+		08F0E94B2546A46B00F2ABA5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0E9492546A46B00F2ABA5 /* MBProgressHUD.m */; };
+		08F0E94E2546A49E00F2ABA5 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0E94C2546A49E00F2ABA5 /* MBProgressHUD+MJ.m */; };
+		08F0E9512546ADC700F2ABA5 /* CALayer+XibBorderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0E9502546ADC600F2ABA5 /* CALayer+XibBorderColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08F0E91D25469EEF00F2ABA5 /* GATextViewTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GATextViewTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F0E92025469EEF00F2ABA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08F0E92125469EEF00F2ABA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08F0E92625469EEF00F2ABA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08F0E92725469EEF00F2ABA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08F0E92A25469EEF00F2ABA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08F0E92C25469EF200F2ABA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08F0E92F25469EF200F2ABA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08F0E93125469EF200F2ABA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F0E93225469EF200F2ABA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08F0E9392546A0A800F2ABA5 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		08F0E93A2546A0A800F2ABA5 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		08F0E93B2546A0A800F2ABA5 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		08F0E93E2546A21400F2ABA5 /* JDPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDPlaceHolderTextView.h; sourceTree = "<group>"; };
+		08F0E93F2546A21400F2ABA5 /* BLogInputTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLogInputTextCell.m; sourceTree = "<group>"; };
+		08F0E9402546A21400F2ABA5 /* BLogInputTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLogInputTextCell.h; sourceTree = "<group>"; };
+		08F0E9412546A21400F2ABA5 /* BLogInputTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLogInputTextCell.xib; sourceTree = "<group>"; };
+		08F0E9422546A21400F2ABA5 /* JDPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDPlaceHolderTextView.m; sourceTree = "<group>"; };
+		08F0E9462546A40300F2ABA5 /* BLogInputTextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLogInputTextModel.m; sourceTree = "<group>"; };
+		08F0E9472546A40300F2ABA5 /* BLogInputTextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLogInputTextModel.h; sourceTree = "<group>"; };
+		08F0E9492546A46B00F2ABA5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		08F0E94A2546A46B00F2ABA5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		08F0E94C2546A49E00F2ABA5 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		08F0E94D2546A49E00F2ABA5 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		08F0E94F2546ADC600F2ABA5 /* CALayer+XibBorderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XibBorderColor.h"; sourceTree = "<group>"; };
+		08F0E9502546ADC600F2ABA5 /* CALayer+XibBorderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XibBorderColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08F0E91A25469EEF00F2ABA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F0E91425469EEF00F2ABA5 = {
+			isa = PBXGroup;
+			children = (
+				08F0E91F25469EEF00F2ABA5 /* GATextViewTestDemo */,
+				08F0E91E25469EEF00F2ABA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08F0E91E25469EEF00F2ABA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08F0E91D25469EEF00F2ABA5 /* GATextViewTestDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08F0E91F25469EEF00F2ABA5 /* GATextViewTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				08F0E92025469EEF00F2ABA5 /* AppDelegate.h */,
+				08F0E92125469EEF00F2ABA5 /* AppDelegate.m */,
+				08F0E9392546A0A800F2ABA5 /* HomeViewController.h */,
+				08F0E93A2546A0A800F2ABA5 /* HomeViewController.m */,
+				08F0E93B2546A0A800F2ABA5 /* HomeViewController.xib */,
+				08F0E9402546A21400F2ABA5 /* BLogInputTextCell.h */,
+				08F0E93F2546A21400F2ABA5 /* BLogInputTextCell.m */,
+				08F0E9412546A21400F2ABA5 /* BLogInputTextCell.xib */,
+				08F0E9522546B57500F2ABA5 /* Tools */,
+				08F0E92625469EEF00F2ABA5 /* ViewController.h */,
+				08F0E92725469EEF00F2ABA5 /* ViewController.m */,
+				08F0E92925469EEF00F2ABA5 /* Main.storyboard */,
+				08F0E92C25469EF200F2ABA5 /* Assets.xcassets */,
+				08F0E92E25469EF200F2ABA5 /* LaunchScreen.storyboard */,
+				08F0E93125469EF200F2ABA5 /* Info.plist */,
+				08F0E93225469EF200F2ABA5 /* main.m */,
+			);
+			path = GATextViewTestDemo;
+			sourceTree = "<group>";
+		};
+		08F0E9522546B57500F2ABA5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				08F0E93E2546A21400F2ABA5 /* JDPlaceHolderTextView.h */,
+				08F0E9422546A21400F2ABA5 /* JDPlaceHolderTextView.m */,
+				08F0E9472546A40300F2ABA5 /* BLogInputTextModel.h */,
+				08F0E9462546A40300F2ABA5 /* BLogInputTextModel.m */,
+				08F0E94A2546A46B00F2ABA5 /* MBProgressHUD.h */,
+				08F0E9492546A46B00F2ABA5 /* MBProgressHUD.m */,
+				08F0E94D2546A49E00F2ABA5 /* MBProgressHUD+MJ.h */,
+				08F0E94C2546A49E00F2ABA5 /* MBProgressHUD+MJ.m */,
+				08F0E94F2546ADC600F2ABA5 /* CALayer+XibBorderColor.h */,
+				08F0E9502546ADC600F2ABA5 /* CALayer+XibBorderColor.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08F0E91C25469EEF00F2ABA5 /* GATextViewTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F0E93625469EF200F2ABA5 /* Build configuration list for PBXNativeTarget "GATextViewTestDemo" */;
+			buildPhases = (
+				08F0E91925469EEF00F2ABA5 /* Sources */,
+				08F0E91A25469EEF00F2ABA5 /* Frameworks */,
+				08F0E91B25469EEF00F2ABA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GATextViewTestDemo;
+			productName = GATextViewTestDemo;
+			productReference = 08F0E91D25469EEF00F2ABA5 /* GATextViewTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08F0E91525469EEF00F2ABA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = MJKJ;
+				TargetAttributes = {
+					08F0E91C25469EEF00F2ABA5 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 08F0E91825469EEF00F2ABA5 /* Build configuration list for PBXProject "GATextViewTestDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08F0E91425469EEF00F2ABA5;
+			productRefGroup = 08F0E91E25469EEF00F2ABA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08F0E91C25469EEF00F2ABA5 /* GATextViewTestDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08F0E91B25469EEF00F2ABA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F0E93025469EF200F2ABA5 /* LaunchScreen.storyboard in Resources */,
+				08F0E9442546A21400F2ABA5 /* BLogInputTextCell.xib in Resources */,
+				08F0E92D25469EF200F2ABA5 /* Assets.xcassets in Resources */,
+				08F0E92B25469EEF00F2ABA5 /* Main.storyboard in Resources */,
+				08F0E93D2546A0A800F2ABA5 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F0E91925469EEF00F2ABA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F0E94E2546A49E00F2ABA5 /* MBProgressHUD+MJ.m in Sources */,
+				08F0E92825469EEF00F2ABA5 /* ViewController.m in Sources */,
+				08F0E9432546A21400F2ABA5 /* BLogInputTextCell.m in Sources */,
+				08F0E92225469EEF00F2ABA5 /* AppDelegate.m in Sources */,
+				08F0E93325469EF200F2ABA5 /* main.m in Sources */,
+				08F0E93C2546A0A800F2ABA5 /* HomeViewController.m in Sources */,
+				08F0E9482546A40300F2ABA5 /* BLogInputTextModel.m in Sources */,
+				08F0E9512546ADC700F2ABA5 /* CALayer+XibBorderColor.m in Sources */,
+				08F0E9452546A21400F2ABA5 /* JDPlaceHolderTextView.m in Sources */,
+				08F0E94B2546A46B00F2ABA5 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08F0E92925469EEF00F2ABA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F0E92A25469EEF00F2ABA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08F0E92E25469EF200F2ABA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F0E92F25469EF200F2ABA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08F0E93425469EF200F2ABA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08F0E93525469EF200F2ABA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08F0E93725469EF200F2ABA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GATextViewTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MJKJ.GATextViewTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08F0E93825469EF200F2ABA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GATextViewTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MJKJ.GATextViewTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08F0E91825469EEF00F2ABA5 /* Build configuration list for PBXProject "GATextViewTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F0E93425469EF200F2ABA5 /* Debug */,
+				08F0E93525469EF200F2ABA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F0E93625469EF200F2ABA5 /* Build configuration list for PBXNativeTarget "GATextViewTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F0E93725469EF200F2ABA5 /* Debug */,
+				08F0E93825469EF200F2ABA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08F0E91525469EEF00F2ABA5 /* Project object */;
+}

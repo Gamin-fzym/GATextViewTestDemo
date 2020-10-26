@@ -1,1 +1,2 @@
 # GATextViewTestDemo
+Cell随着输入文字的换行自动增高
